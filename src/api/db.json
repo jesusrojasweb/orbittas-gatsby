@@ -1,0 +1,432 @@
+{
+  "servicios": [
+    {
+      "right": true,
+      "id": "proyecto",
+      "img": "proyecto-icono.png",
+      "imagenServicio": "proyectos-servicios.png",
+      "nombre": "Gestión de Proyectos",
+      "nombreEn": "Projects management",
+      "en": [
+        {
+          "id": 1,
+          "nombre": "Agile methodology"
+        },
+        {
+          "id": 2,
+          "nombre": "Planning, direction and evaluation of projects"
+        },
+        {
+          "id": 3,
+          "nombre": "Modeling and optimization of processes"
+        },
+        {
+          "id": 4,
+          "nombre": "Management Tools Development"
+        },
+        {
+          "id": 5,
+          "nombre": "KPIS modeling"
+        },
+        {
+          "id": 6,
+          "nombre": "Regular reports on the status of projects and their control"
+        },
+        {
+          "id": 7,
+          "nombre": "Use of project management systems"
+        },
+        {
+          "id": 9,
+          "nombre": "Training in the use of tools"
+        }
+      ],
+      "es": [
+        {
+          "id": 1,
+          "nombre": "Metodología Agile"
+        },
+        {
+          "id": 2,
+          "nombre": "Planeación, dirección y evaluación de proyectos"
+        },
+        {
+          "id": 3,
+          "nombre": "Modelamiento y optimización de procesos"
+        },
+        {
+          "id": 4,
+          "nombre": "Desarrollo de herramientas gerenciales"
+        },
+        {
+          "id": 5,
+          "nombre": "Modelado de KPIS"
+        },
+        {
+          "id": 6,
+          "nombre": "Informes regulares sobre el estado de los proyectos y su control"
+        },
+        {
+          "id": 7,
+          "nombre": "Uso de sistemas de gestión de proyectos"
+        },
+        {
+          "id": 9,
+          "nombre": "Capacitación en uso de herramientas"
+        }
+      ],
+      "servicios": [
+        {
+          "id": 1,
+          "nombre": "Metodología Agile"
+        },
+        {
+          "id": 2,
+          "nombre": "Planeación, dirección y evaluación de proyectos"
+        },
+        {
+          "id": 3,
+          "nombre": "Modelamiento y optimización de procesos"
+        },
+        {
+          "id": 4,
+          "nombre": "Desarrollo de herramientas gerenciales"
+        },
+        {
+          "id": 5,
+          "nombre": "Modelado de KPIS"
+        },
+        {
+          "id": 6,
+          "nombre": "Informes regulares sobre el estado de los proyectos y su control"
+        },
+        {
+          "id": 7,
+          "nombre": "Uso de sistemas de gestión de proyectos"
+        },
+        {
+          "id": 9,
+          "nombre": "Capacitación en uso de herramientas"
+        }
+      ]
+    },
+    {
+      "right": false,
+      "id": "electronica",
+      "img": "electronica-icono.png",
+      "imagenServicio": "electronica-servicios.png",
+      "nombre": "Dispositivos Electrónicos",
+      "nombreEn": "Electronics devices",
+      "en": [
+        {
+          "id": 1,
+          "nombre": "IOT technology"
+        },
+        {
+          "id": 2,
+          "nombre": "Home automation"
+        },
+        {
+          "id": 3,
+          "nombre": "Smart devices"
+        },
+        {
+          "id": 4,
+          "nombre": "Security systems"
+        },
+        {
+          "id": 5,
+          "nombre": "Energy management"
+        },
+        {
+          "id": 6,
+          "nombre": "Software, firmware and hardware development"
+        },
+        {
+          "id": 8,
+          "nombre": "Industrial electronics"
+        },
+        {
+          "id": 8,
+          "nombre": "Development interfaces for monitoring and control"
+        }
+      ],
+      "es": [
+        {
+          "id": 1,
+          "nombre": "Tecnología IOT"
+        },
+        {
+          "id": 2,
+          "nombre": "Domótica"
+        },
+        {
+          "id": 3,
+          "nombre": "Dispositivos inteligentes"
+        },
+        {
+          "id": 4,
+          "nombre": "Sistemas de seguridad"
+        },
+        {
+          "id": 5,
+          "nombre": "Gestión energética"
+        },
+        {
+          "id": 6,
+          "nombre": "Desarrollo de software, firmware y hardware"
+        },
+        {
+          "id": 8,
+          "nombre": "Electrónica industrial"
+        },
+        {
+          "id": 8,
+          "nombre": "Desarrollo interfaces para monitoreo y control"
+        }
+      ],
+      "servicios": [
+        {
+          "id": 1,
+          "nombre": "Tecnología IOT"
+        },
+        {
+          "id": 2,
+          "nombre": "Domótica"
+        },
+        {
+          "id": 3,
+          "nombre": "Dispositivos inteligentes"
+        },
+        {
+          "id": 4,
+          "nombre": "Sistemas de seguridad"
+        },
+        {
+          "id": 5,
+          "nombre": "Gestión energética"
+        },
+        {
+          "id": 6,
+          "nombre": "Desarrollo de software, firmware y hardware"
+        },
+        {
+          "id": 8,
+          "nombre": "Electrónica industrial"
+        },
+        {
+          "id": 8,
+          "nombre": "Desarrollo interfaces para monitoreo y control"
+        }
+      ]
+    },
+    {
+      "right": true,
+      "id": "web",
+      "img": "web-icono.png",
+      "imagenServicio": "web-servicios.png",
+      "nombre": "Aplicaciones Web",
+      "nombreEn": "Web applications",
+      "en": [
+        {
+          "id": 1,
+          "nombre": "Informational web"
+        },
+        {
+          "id": 2,
+          "nombre": "E-commerce"
+        },
+        {
+          "id": 3,
+          "nombre": "Educational pages"
+        },
+        {
+          "id": 4,
+          "nombre": "Custom development"
+        },
+        {
+          "id": 5,
+          "nombre": "SEO optimization"
+        },
+        {
+          "id": 6,
+          "nombre": "Content Manager"
+        },
+        {
+          "id": 7,
+          "nombre": "Exclusive designs"
+        },
+        {
+          "id": 8,
+          "nombre": "Responsive Designs"
+        }
+      ],
+      "es": [
+        {
+          "id": 1,
+          "nombre": "Web informativas"
+        },
+        {
+          "id": 2,
+          "nombre": "E-commerce"
+        },
+        {
+          "id": 3,
+          "nombre": "Páginas educativas"
+        },
+        {
+          "id": 4,
+          "nombre": "Desarrollo a la medida"
+        },
+        {
+          "id": 5,
+          "nombre": "Optimización SEO"
+        },
+        {
+          "id": 6,
+          "nombre": "Administrador de contenidos"
+        },
+        {
+          "id": 7,
+          "nombre": "Diseños exclusivos"
+        },
+        {
+          "id": 8,
+          "nombre": "Diseños Responsive"
+        }
+      ],
+      "servicios": [
+        {
+          "id": 1,
+          "nombre": "Web informativas"
+        },
+        {
+          "id": 2,
+          "nombre": "E-commerce"
+        },
+        {
+          "id": 3,
+          "nombre": "Páginas educativas"
+        },
+        {
+          "id": 4,
+          "nombre": "Desarrollo a la medida"
+        },
+        {
+          "id": 5,
+          "nombre": "Optimización SEO"
+        },
+        {
+          "id": 6,
+          "nombre": "Administrador de contenidos"
+        },
+        {
+          "id": 7,
+          "nombre": "Diseños exclusivos"
+        },
+        {
+          "id": 8,
+          "nombre": "Diseños Responsive"
+        }
+      ]
+    },
+    {
+      "right": false,
+      "id": "movil",
+      "img": "movil-icono.png",
+      "imagenServicio": "movil-servicios.png",
+      "nombre": "Aplicaciones Móviles",
+      "nombreEn": "Mobile apps",
+      "es": [
+        {
+          "id": 1,
+          "nombre": "Desarrollo Android"
+        },
+        {
+          "id": 2,
+          "nombre": "Desarrollo IOS"
+        },
+        {
+          "id": 3,
+          "nombre": "Aplicaciones Híbridas"
+        },
+        {
+          "id": 4,
+          "nombre": "Aplicaciones responsive"
+        },
+        {
+          "id": 5,
+          "nombre": "Infraestructura escalable"
+        },
+        {
+          "id": 6,
+          "nombre": "Diseños Exclusivos"
+        },
+        {
+          "id": 7,
+          "nombre": "Aplicaciones a cualquier escala"
+        }
+      ],
+      "en": [
+        {
+          "id": 1,
+          "nombre": "Android Development"
+        },
+        {
+          "id": 2,
+          "nombre": "IOS development"
+        },
+        {
+          "id": 3,
+          "nombre": "Hybrid Applications"
+        },
+        {
+          "id": 4,
+          "nombre": "Responsive applications"
+        },
+        {
+          "id": 5,
+          "nombre": "Scalable infrastructure"
+        },
+        {
+          "id": 6,
+          "nombre": "Exclusive designs"
+        },
+        {
+          "id": 7,
+          "nombre": "Applications at any scale"
+        }
+      ],
+      "servicios": [
+        {
+          "id": 1,
+          "nombre": "Desarrollo Android"
+        },
+        {
+          "id": 2,
+          "nombre": "Desarrollo IOS"
+        },
+        {
+          "id": 3,
+          "nombre": "Aplicaciones Híbridas"
+        },
+        {
+          "id": 4,
+          "nombre": "Aplicaciones responsive"
+        },
+        {
+          "id": 5,
+          "nombre": "Infraestructura escalable"
+        },
+        {
+          "id": 6,
+          "nombre": "Diseños Exclusivos"
+        },
+        {
+          "id": 7,
+          "nombre": "Aplicaciones a cualquier escala"
+        }
+      ]
+    }
+  ]
+}

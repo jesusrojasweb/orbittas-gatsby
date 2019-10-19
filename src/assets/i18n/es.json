@@ -1,0 +1,100 @@
+{
+  "locale": "es",
+  "menu": {
+    "about": "Quienes somos",
+    "services": "Servicios",
+    "portfolio": "portafolio",
+    "contact": "contacto"
+  },
+  "heroHomePage": {
+    "titleFirst": "Tienes",
+    "titleSecond": "una",
+    "titleThird": "idea",
+    "button": "innovemos",
+    "tagline": "Nosotros la desarrollamos"
+  },
+  "aboutHomePage": {
+    "title": "Conoce nuestro equipo:",
+    "firstParagraph": "Somos un equipo apasionado por la tecnología e innovación, conformado por profesionales en diversas Áreas.",
+    "secondParagraph": "Nos centramos en utilizar la tecnología para ayudarte a alcanzar tus metas, manteniendo una relación cercana, conectándonos contigo y potenciando en conjunto.",
+    "expert": "Equipo Experto",
+    "quality": "Proyectos Innovadores",
+    "efficiency": "Planeación efectiva",
+    "solutions": "Soluciones acertadas",
+    "button": "Conócenos"
+  },
+  "servicesName": {
+    "title": "Te apoyamos con desarrollos en diversas Áreas",
+    "proyects": "Gestión de Proyectos",
+    "electronic": "Dispositivos Electrónicos",
+    "web": "Aplicaciones WEB",
+    "movil": "Aplicaciones Móviles"
+  },
+  "servicesHomePage": {
+    "proyectsDescription": "Realizamos el planeamiento, gestión y ejecución de tu proyecto.",
+    "electronicDescription": "Diseñamos sistemas inteligentes a cualquier escala.",
+    "webDescription": "Aplicaciones que brindan experiencias de usuario en ambientes innovadores",
+    "movilDescription": "Tu empresa en dispositivos móviles con herramientas de última generación."
+  },
+  "portfolioHomePage": {
+    "title": "Conoce algunos de nuestros trabajos",
+    "button": "Ver Más"
+  },
+  "testimoniosPage": {
+    "title": "Mira lo que dicen quienes ya nos conocen"
+  },
+  "contactHomePage": {
+    "title": "Nuestro equipo experto",
+    "listen": "Te escucha",
+    "research": "Realiza el estudio y planea el desarrollo",
+    "develop": "Planea el desarrollo",
+    "plan": "Ejecuta el plan",
+    "together": "Te acompaña en la implementación",
+    "button": "Contáctanos",
+    "phone": "Telefono"
+  },
+  "footer": {
+    "info": "Información",
+    "social": "Redes Sociales",
+    "copy": "Todos los derechos reservados"
+  },
+  "heroAboutPage": {
+    "firstTitle": "Aportamos",
+    "secondTitle": "lor",
+    "firstDescription": "Nuestro enfoque principal es desarrollar tecnología para ti e impactar positivamente en cada proyecto del que formamos parte, manteniendo un alto nivel de compromiso en alcanzar los objetivos trazados.",
+    "secondDescription": "Practicamos el intercambio constante de ideas a nivel global, lo cual nos permite mantenernos a la vanguardia de las tendencias actuales. "
+  },
+  "valoresAboutPage": {
+    "empathy": "Empatía",
+    "passion": "Pasión",
+    "focus": "Enfoque",
+    "teamwork": "Equipo",
+    "empathyDescription": "Generamos ambiente de confianza, nos conectamos contigo para entender tu negocio y necesidades.",
+    "passionDescription": "Creemos que el éxito de un proyecto, radica en creer en él y apostar con plenitud por hacerlo realidad.",
+    "focusDescription": "Mantenemos objetivos claros y los esfuerzos totalmente direccionados a cumplirlos con éxito.",
+    "teamDesciption": "Nos adaptamos a las comunicaciones efectivas que facilitan los procesos y avances cooperativos. "
+  },
+  "teamAboutPage": {
+    "title": "Nuestro equipo"
+  },
+  "heroServicesPage": {
+    "firstTitle": "Tecnología de",
+    "secondTitle": "nguardia",
+    "firstDescription": "En Orbittas desarrollamos proyectos que involucran diferentes áreas de la tecnologÃía, entendiendo que la integración de las mismas es la fuerza del futuro.",
+    "secondDescription": "Nuestra diversidad y flexibilidad nos potencia a obtener capacidad de respuesta rápida y ágil ante las demandas actuales."
+  },
+  "portfolio": {
+    "proyect": "Gestión de proyectos",
+    "elect": "Electrónica",
+    "web": "Web",
+    "mobile": "Móvil"
+  },
+  "contactoPage": {
+    "title": "Cuéntanos tu idea",
+    "name": "Tu nombre",
+    "proyect": "Proyecto",
+    "email": "Tu Email",
+    "idea": "Cuéntanos tu idea",
+    "button": "Orbittemos"
+  }
+}
