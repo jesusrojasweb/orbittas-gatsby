@@ -185,8 +185,8 @@ export const Header = styled.header`
       }
     `}
   ${({ fondo, scroll }) =>
-    fondo != "/" &&
-    !scroll &&
+    ((fondo != "/" && fondo != '/blog') &&
+    !scroll) &&
     css`
       & ${Contenedor} {
         & ${Navbar} {

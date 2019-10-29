@@ -64,6 +64,24 @@ module.exports = {
         verboseOutput: process.env.NODE_ENV !== "production",
       },
     },
+    {
+      resolve: "gatsby-source-apiserver",
+      options: {
+        name: "Articles",
+        typePrefix: "api",
+        data: {
+          ns: "posts",
+          method: "articles",
+        },
+        url: "https://orbittasteam-ssr.jesusrojasweb.now.sh/posts",
+        method: "GET",
+        auth: false,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        verboseOutput: process.env.NODE_ENV !== "production",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

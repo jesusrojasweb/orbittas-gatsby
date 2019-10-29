@@ -32,7 +32,7 @@ const Menu = ({ index, lang, changeIdioma, idioma }) => {
   }, [scroll, cambio])
 
   function mover() {
-    if(typeof window !== `undefined`){
+    if (typeof window !== `undefined`) {
       const newShowFixed = window.scrollY > 50
       scroll != newShowFixed && setScroll(newShowFixed)
     }
@@ -41,21 +41,19 @@ const Menu = ({ index, lang, changeIdioma, idioma }) => {
     // window.scrollBy(0, -window.innerHeight);
     nprogress.start()
     setCambio(!cambio)
-    if(typeof window !== `undefined`){
+    if (typeof window !== `undefined`) {
       window.scrollBy({
         top: -4000,
         left: 0,
         behaviour: "smooth",
       })
     }
-    
   }
 
   return (
     <Location>
       {({ location }) => {
         ReactGA.pageview(location.pathname + location.search)
-
         return (
           <Header scroll={scroll} fondo={location.pathname} index={index}>
             <Contenedor>
@@ -77,6 +75,10 @@ const Menu = ({ index, lang, changeIdioma, idioma }) => {
                   </Item>
                   <Item onClick={() => click()} to={`/portfolio`}>
                     {t("portfolio")}
+                  </Item>
+
+                  <Item onClick={() => click()} to={`/blog`}>
+                    Blog
                   </Item>
                   <Item onClick={() => click()} to={`/contact`}>
                     {t("contact")}
