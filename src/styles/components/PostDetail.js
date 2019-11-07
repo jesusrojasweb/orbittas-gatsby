@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-import { tituloSecundario, colorFluerecente } from "../variables"
+import { tituloSecundario, colorFluerecente, mobile } from "../variables"
 import { Link } from "gatsby"
 
 export const Details = styled.section`
@@ -34,7 +34,7 @@ export const Overlay = styled.div`
   & > div {
     display: flex;
     flex-wrap: wrap;
-    padding: 1em 2em;
+    padding: 1em 0;
     align-items: center;
     & figure {
       overflow: hidden;
@@ -63,26 +63,40 @@ export const Overlay = styled.div`
       margin: 5px 1em;
     }
   }
+  @media (${mobile}) {
+    padding: 2em 3em;
+    & > div {
+      & figure {
+        width: 14%;
+      }
+      & span {
+        margin: 0 10px;
+      }
+    }
+  }
 `
 
 export const Body = styled.div`
   padding: 3em 6em;
-  & a{
+  & a {
     text-decoration: none;
     color: ${colorFluerecente};
   }
 
-  & .left{
+  & .left {
     display: inline;
     float: left;
     width: 50%;
     margin-right: 2em;
   }
-  & .right{
+  & .right {
     display: inline;
     float: right;
     width: 50%;
     margin-left: 2em;
+  }
+  @media (${mobile}) {
+    padding: 3em;
   }
 `
 
@@ -90,6 +104,9 @@ export const Pie = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 2em 6em;
+  @media (${mobile}) {
+    padding: 2em 3em;
+  }
 `
 
 const pasar = right => css`

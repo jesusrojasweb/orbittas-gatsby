@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { tituloSecundario, colorPrincipal } from "../variables"
+import { tituloSecundario, colorPrincipal, mobile } from "../variables"
 import { Link } from "gatsby"
 
 export const View = styled.span`
@@ -79,5 +79,13 @@ export const Card = styled.article`
     & ${Details} {
       transform: translateY(-100%);
     }
+  }
+  @media (${mobile}) {
+    margin: 9em 3em 3em;
+    width: calc(100% - 6em);
+  }
+  @media (max-width: 700px) and (orientation: landscape) {
+    margin: 5em 3em 3em;
+    width: calc(100% - 6em);
   }
 `

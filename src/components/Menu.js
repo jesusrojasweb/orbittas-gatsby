@@ -77,9 +77,9 @@ const Menu = ({ index, lang, changeIdioma, idioma }) => {
                     {t("portfolio")}
                   </Item>
 
-                  <Item onClick={() => click()} to={`/blog`}>
+                  {/*<Item onClick={() => click()} to={`/blog`}>
                     Blog
-                  </Item>
+                    </Item>*/}
                   <Item onClick={() => click()} to={`/contact`}>
                     {t("contact")}
                   </Item>

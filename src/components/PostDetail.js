@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import ReactMarkdown from "react-markdown"
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa"
 import {
@@ -12,7 +12,22 @@ import {
 } from "../styles/components/PostDetail"
 
 const PostDetail = ({ datos, previous, next }) => {
-  const { cargo, content, date, thumnail, title, user, userProfile } = datos
+  const {
+    _id,
+    title,
+    titleEn,
+    link,
+    user,
+    username,
+    cargo,
+    content,
+    contentEn,
+    thumnail,
+    date,
+    userProfile,
+    userHover,
+    click,
+  } = datos
   if (next) {
     var { title: nextTitle } = next
     var nextLink = nextTitle
@@ -28,7 +43,32 @@ const PostDetail = ({ datos, previous, next }) => {
       .join("-")
   }
 
-  console.log(date)
+  useEffect(() => {
+    console.log("hola como estas")
+    if (typeof window !== `undefined`) {
+      let clickSuma = {
+        ...datos,
+        click: click + 1,
+      }
+      let data = JSON.stringify(clickSuma)
+      window
+        .fetch(`https://orbittasteam-ssr.jesusrojasweb.now.sh/posts/${_id}`, {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: data,
+        })
+        .then(res => {
+          console.log(res)
+          return res.json()
+        })
+        .then(res => {
+          console.log("Se edito correctamente el articulo")
+        })
+        .catch(e => console.error("Hubo un error", e))
+    }
+  }, [])
 
   return (
     <Details>
