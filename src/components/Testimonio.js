@@ -29,7 +29,7 @@ export const Testimonio = ({
           <img src={logo} />
         </Figure>
         <Cita>
-          {testimonioEn && idioma ? (
+          {idioma ? (
             <Descripcion>{testimonioEn}</Descripcion>
           ) : (
             <Descripcion>{testimonio}</Descripcion>

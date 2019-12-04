@@ -15,6 +15,18 @@ const ArticleCard = ({
     .toLocaleLowerCase()
     .split(" ")
     .join("-")
+
+  let resumen
+
+  let total = content.split(" ")
+
+  if (total.length > 29) {
+    let cortado = total.slice(0, 29).join(" ")
+
+    resumen = cortado + "..."
+  } else {
+    resumen = content
+  }
   return (
     <Card thumnail={thumnail} to={title}>
       <Link to={`/blog/${link}`}>
@@ -22,10 +34,7 @@ const ArticleCard = ({
           <h2>{title}</h2>
         </View>
         <Details>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam
-          </p>
+          <p>{resumen}</p>
           <div>
             <figure>
               <img src={userProfile} alt={`${user} perfil`} />

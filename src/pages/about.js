@@ -31,7 +31,7 @@ const AboutPage = ({ data }) => {
       <SEO title="About" />
       <HeroAbout />
       <Valores />
-      <Equipo usuarios={data.allApiUsuarios.edges[0].node.data} />
+      <Equipo usuarios={data.allApiUsuarios.edges[1].node.data} />
     </>
   )
 }
