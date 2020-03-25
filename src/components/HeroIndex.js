@@ -66,7 +66,7 @@ const HeroIndex = ({ changed, handleChange }) => {
       <Copy idioma={idioma}>
         <Item>
           <Title>
-            <b>¿</b>
+            <b>{t("sign")}</b>
             {t("titleFirst")} <br /> {t("titleSecond")}{" "}
             <strong>{t("titleThird")}?</strong>
           </Title>

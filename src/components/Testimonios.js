@@ -165,6 +165,7 @@ const Testimonios = () => {
                   siguiente={siguiente}
                   anterior={anterior}
                   className="active"
+                  idioma={idioma}
                   {...testimonio}
                 />
               )
@@ -173,6 +174,7 @@ const Testimonios = () => {
                 <Testimonio
                   siguiente={siguiente}
                   anterior={anterior}
+                  idioma={idioma}
                   {...testimonio}
                 />
               )
