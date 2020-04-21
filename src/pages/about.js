@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { proyects } from "../api/db.json"
+import { users } from "../api/db.json"
 
 import SEO from "../components/seo"
 import HeroAbout from "../components/HeroAbout"
@@ -27,13 +27,14 @@ import Equipo from "../components/Equipo"
 // `
 
 const AboutPage = ({ data }) => {
+
   return (
     <>
       <SEO title="About" />
       <HeroAbout />
       <Valores />
-      // <Equipo usuarios={data.allApiUsuarios.edges[1].node.data} />
-      <Equipo usuarios={proyects} />
+      {/*<Equipo usuarios={data.allApiUsuarios.edges[1].node.data} />*/}
+      <Equipo usuarios={users} />
     </>
   )
 }
