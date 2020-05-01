@@ -24,7 +24,7 @@ let cinco
 
 const Equipo = ({ usuarios }) => {
   const { idioma } = useContext(Context)
-  if (usuarios === null) {
+  if (usuarios === null || usuarios === undefined) {
     usuarios = []
   }
 

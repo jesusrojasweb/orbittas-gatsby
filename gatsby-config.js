@@ -28,42 +28,42 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    // {
-    //   resolve: "gatsby-source-apiserver",
-    //   options: {
-    //     name: "Usuarios",
-    //     typePrefix: "api",
-    //     data: {
-    //       ns: "users",
-    //       method: "usuarios",
-    //     },
-    //     url: "https://orbittasteam-ssr.jesusrojasweb.now.sh/users",
-    //     method: "GET",
-    //     auth: false,
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //     verboseOutput: process.env.NODE_ENV !== "production",
-    //   },
-    // },
-    // {
-    //   resolve: "gatsby-source-apiserver",
-    //   options: {
-    //     name: "Proyectos",
-    //     typePrefix: "api",
-    //     data: {
-    //       ns: "proyects",
-    //       method: "proyectos",
-    //     },
-    //     url: "https://orbittasteam-ssr.jesusrojasweb.now.sh/proyectos",
-    //     method: "GET",
-    //     auth: false,
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //     verboseOutput: process.env.NODE_ENV !== "production",
-    //   },
-    // },
+    {
+      resolve: "gatsby-source-apiserver",
+      options: {
+        name: "Usuarios",
+        typePrefix: "api",
+        data: {
+          ns: "users",
+          method: "usuarios",
+        },
+        url: "https://orbittasteam-ssr.jesusrojasweb.now.sh/users",
+        method: "GET",
+        auth: false,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        verboseOutput: process.env.NODE_ENV !== "production",
+      },
+    },
+    {
+      resolve: "gatsby-source-apiserver",
+      options: {
+        name: "Proyectos",
+        typePrefix: "api",
+        data: {
+          ns: "proyects",
+          method: "proyectos",
+        },
+        url: "https://orbittasteam-ssr.jesusrojasweb.now.sh/proyectos",
+        method: "GET",
+        auth: false,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        verboseOutput: process.env.NODE_ENV !== "production",
+      },
+    },
     // {
     //   resolve: "gatsby-source-apiserver",
     //   options: {

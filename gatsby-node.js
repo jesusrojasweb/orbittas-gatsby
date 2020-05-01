@@ -1,52 +1,52 @@
 const path = require("path")
-const { proyects, posts } = require("./src/api/db.json")
+const { posts } = require("./src/api/db.json")
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const proyectoTemplate = path.resolve(`src/templates/Proyecto.js`)
-  // const resultProyectos = await graphql(`
-  //   query GET_PROYECTO {
-  //     allApiProyectos {
-  //       edges {
-  //         node {
-  //           data {
-  //             _id
-  //             link
-  //             servicio
-  //             nombre
-  //             src
-  //             descripcionShort
-  //             descripcionShortEn
-  //             nombreEn
-  //             servicioType
-  //             servicioTypeEn
-  //             brief
-  //             briefEn
-  //             descripcionLong
-  //             descripcionLongEn
-  //             primeraImagen
-  //             segundaImagen
-  //             slogan
-  //             sloganEn
-  //             estado
-  //             caracteristicas {
-  //               value
-  //               label
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
+  const resultProyectos = await graphql(`
+    query GET_PROYECTO {
+      allApiProyectos {
+        edges {
+          node {
+            data {
+              _id
+              link
+              servicio
+              nombre
+              src
+              descripcionShort
+              descripcionShortEn
+              nombreEn
+              servicioType
+              servicioTypeEn
+              brief
+              briefEn
+              descripcionLong
+              descripcionLongEn
+              primeraImagen
+              segundaImagen
+              slogan
+              sloganEn
+              estado
+              caracteristicas {
+                value
+                label
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
 
-  // if (resultProyectos.errors) {
-  //   throw resultProyectos.errors
-  // }
-  // console.log(resultProyectos.data.allApiProyectos)
-  // resultProyectos.data.allApiProyectos.edges[0].node.data.forEach(datos => {
-  // console.log(proyects)
-  proyects.forEach(datos => {
+  if (resultProyectos.errors) {
+    throw resultProyectos.errors
+  }
+  console.log(resultProyectos.data.allApiProyectos)
+  resultProyectos.data.allApiProyectos.edges[0].node.data.forEach(datos => {
+    // console.log(proyects)
+    // proyects.forEach(datos => {
     console.log("proyecto")
     createPage({
       path: `/portfolio/${datos.link}`,

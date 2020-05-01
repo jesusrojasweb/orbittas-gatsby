@@ -7,27 +7,27 @@ import HeroAbout from "../components/HeroAbout"
 import Valores from "../components/Valores"
 import Equipo from "../components/Equipo"
 
-// export const query = graphql`
-//   query GET_USERS {
-//     allApiUsuarios {
-//       edges {
-//         node {
-//           data {
-//             _id
-//             name
-//             cargo
-//             cargoEn
-//             profileImage
-//             profileHover
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query GET_USERS {
+    allApiUsuarios {
+      edges {
+        node {
+          data {
+            _id
+            name
+            cargo
+            cargoEn
+            profileImage
+            profileHover
+          }
+        }
+      }
+    }
+  }
+`
 
 const AboutPage = ({ data }) => {
-
+  console.log(data.allApiUsuarios.edges)
   return (
     <>
       <SEO title="About" />
